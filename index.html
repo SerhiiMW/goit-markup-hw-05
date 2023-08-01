@@ -423,6 +423,25 @@
             </li>
           </ul>
         </div>
+        <div class="mail-subsribe">
+          <form class="form-mail" name="Subscribe-form">
+            <label class="form-label"
+              >Subscribe
+              <input
+                class="form-input"
+                type="email"
+                name="Subscribe"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="form-button" type="submit">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-Telgm"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -432,6 +451,70 @@
             <use href="./images/icons.svg#icon-Vector"></use>
           </svg>
         </button>
+        <h2 class="title-order">
+          Leave your contacts and we will call you back
+        </h2>
+        <form class="form-order">
+          <div class="form-element">
+          <label class="label-order"
+            >Name
+            <div class="input-wrap">
+              <input
+                class="input-order"
+                type="text"
+                name="name"
+                placeholder=""
+                autofocus
+              />
+              <svg class="icon-order" width="18" height="18">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
+            </div>
+          </label>
+          <label class="label-order"
+            >Phone
+            <input
+              class="input-order"
+              type="tel"
+              name="phone"
+              placeholder="Jack Meadows"
+            />
+          </label>
+          <label class="label-order"
+            >Email
+            <input
+              class="input-order"
+              type="email"
+              name="email"
+              placeholder="Jack Meadows"
+            />
+          </label>
+          <label class="label-order"
+            >Comment
+            <textarea
+              class="input-order-textarea"
+              name="Comment"
+              rows="8"
+              placeholder="Text input"
+            >
+            </textarea>
+          </label>
+        </form>
+        <form class="form-accept">
+          <label class="label-accept">
+            <input
+              class="input-accept"
+              type="checkbox"
+              name="accept"
+              value="accept"
+            />
+            I accept the terms and conditions of the<span class="accept-policy">
+              Privacy Policy</span
+            >
+          </label>
+        </form>
+        <button class="send-btn" type="submit">Send</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
