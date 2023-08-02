@@ -680,7 +680,7 @@ address .list {
   margin-bottom: 16px;
 }
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-input-wrap {
   position: relative;
@@ -754,7 +754,7 @@ address .list {
   margin-bottom: 24px;
   /* gap: 8px; */
 }
-.modal-checked-input:checked .checked-icon {
+.modal-policy input:checked .checked-icon{
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
@@ -834,7 +834,7 @@ margin-left: 80px;
 .form-button {
   position: absolute;
   border: none;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   justify-content: center;
